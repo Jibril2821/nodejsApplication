@@ -7,3 +7,7 @@ app.get('/', (req, res) => {
         message: 'hello'
     })
 });
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+  })
